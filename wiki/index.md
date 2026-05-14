@@ -1,0 +1,13 @@
+# Multi-Source Market Intelligence Wiki
+
+## Daily pages
+
+- [[daily/2026-05-14|2026-05-14]]
+
+## Source extensibility
+
+新增 Reuters、交易所公告、公司公告等源时，只需：
+
+1. 在 `manifests/source_registry.json` 增加 source 配置；
+2. 将标准化 JSONL 写入该 source 的 `data_glob` 路径；
+3. 运行 `scripts/build_daily_wiki.py --date YYYY-MM-DD`。

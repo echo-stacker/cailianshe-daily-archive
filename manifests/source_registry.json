@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "sources": {
+    "cls": {
+      "name": "财联社",
+      "enabled": true,
+      "data_glob": "sources/cls/data/{year}/{date}.jsonl",
+      "markdown_glob": "sources/cls/data/{year}/{date}.md",
+      "source_type": "news_flash",
+      "license_note": "Public web roll feed; normalized archive for research use."
+    },
+    "reuters": {
+      "name": "Reuters",
+      "enabled": false,
+      "data_glob": "sources/reuters/data/{year}/{date}.jsonl",
+      "markdown_glob": "sources/reuters/data/{year}/{date}.md",
+      "source_type": "wire_news",
+      "license_note": "Extension slot only. Store metadata, links, ids and short excerpts unless a licensed feed/export is configured. Do not commit private credentials."
+    }
+  }
+}

@@ -84,6 +84,8 @@ def normalize_item(row: dict[str, Any]) -> dict[str, Any]:
         if isinstance(subject, dict) and subject.get("subject_name"):
             subjects.append(clean_text(subject.get("subject_name"), 120))
     return {
+        "source": "cls",
+        "source_name": "财联社",
         "id": str(row.get("id") or ""),
         "ctime": ctime,
         "datetime": dt.isoformat() if dt else "",
@@ -131,7 +133,7 @@ def fetch_day(target_date: str, *, rn: int = 50, max_pages: int = 120, pause: fl
 
 def write_outputs(repo: Path, target_date: str, items: list[dict[str, Any]]) -> list[Path]:
     year = target_date[:4]
-    data_dir = repo / "data" / year
+    data_dir = repo / "sources" / "cls" / "data" / year
     data_dir.mkdir(parents=True, exist_ok=True)
     jsonl_path = data_dir / f"{target_date}.jsonl"
     md_path = data_dir / f"{target_date}.md"
@@ -163,6 +165,13 @@ def write_outputs(repo: Path, target_date: str, items: list[dict[str, Any]]) -> 
             manifest = {"dates": {}}
     manifest.setdefault("dates", {})[target_date] = {
         "item_count": len(items),
+        "sources": {
+            "cls": {
+                "item_count": len(items),
+                "jsonl": jsonl_path.relative_to(repo).as_posix(),
+                "markdown": md_path.relative_to(repo).as_posix(),
+            }
+        },
         "jsonl": jsonl_path.relative_to(repo).as_posix(),
         "markdown": md_path.relative_to(repo).as_posix(),
         "updated_at": datetime.now(SH_TZ).isoformat(timespec="seconds"),
