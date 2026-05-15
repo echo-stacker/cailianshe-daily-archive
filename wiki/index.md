@@ -2,6 +2,7 @@
 
 ## Daily pages
 
+- [[daily/2026-05-15|2026-05-15]]
 - [[daily/2026-05-14|2026-05-14]]
 
 ## Source extensibility
