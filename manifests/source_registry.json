@@ -2,20 +2,36 @@
   "schema_version": "1.0",
   "sources": {
     "cls": {
-      "name": "财联社",
-      "enabled": true,
       "data_glob": "sources/cls/data/{year}/{date}.jsonl",
+      "enabled": true,
+      "license_note": "Public web roll feed; normalized archive for research use.",
       "markdown_glob": "sources/cls/data/{year}/{date}.md",
-      "source_type": "news_flash",
-      "license_note": "Public web roll feed; normalized archive for research use."
+      "name": "财联社",
+      "source_type": "news_flash"
+    },
+    "eastmoney": {
+      "data_glob": "sources/eastmoney/data/{year}/{date}.jsonl",
+      "enabled": true,
+      "license_note": "Public Eastmoney web fast-news feed; normalized archive for local research use.",
+      "markdown_glob": "sources/eastmoney/data/{year}/{date}.md",
+      "name": "东方财富",
+      "source_type": "news_flash"
     },
     "reuters": {
-      "name": "Reuters",
-      "enabled": false,
       "data_glob": "sources/reuters/data/{year}/{date}.jsonl",
+      "enabled": false,
+      "license_note": "Extension slot only. Store metadata, links, ids and short excerpts unless a licensed feed/export is configured. Do not commit private credentials.",
       "markdown_glob": "sources/reuters/data/{year}/{date}.md",
-      "source_type": "wire_news",
-      "license_note": "Extension slot only. Store metadata, links, ids and short excerpts unless a licensed feed/export is configured. Do not commit private credentials."
+      "name": "Reuters",
+      "source_type": "wire_news"
+    },
+    "ths": {
+      "data_glob": "sources/ths/data/{year}/{date}.jsonl",
+      "enabled": true,
+      "license_note": "Public 10jqka web news feed; normalized archive for local research use.",
+      "markdown_glob": "sources/ths/data/{year}/{date}.md",
+      "name": "同花顺",
+      "source_type": "news_flash"
     }
   }
 }
