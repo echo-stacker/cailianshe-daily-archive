@@ -983,6 +983,19 @@
         }
       },
       "updated_at": "2026-06-29T23:55:41+08:00"
+    },
+    "2026-06-30": {
+      "item_count": 652,
+      "jsonl": "sources/cls/data/2026/2026-06-30.jsonl",
+      "markdown": "sources/cls/data/2026/2026-06-30.md",
+      "sources": {
+        "cls": {
+          "item_count": 652,
+          "jsonl": "sources/cls/data/2026/2026-06-30.jsonl",
+          "markdown": "sources/cls/data/2026/2026-06-30.md"
+        }
+      },
+      "updated_at": "2026-06-30T23:55:50+08:00"
     }
   }
 }
