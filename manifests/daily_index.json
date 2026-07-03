@@ -1054,7 +1054,7 @@
       "updated_at": "2026-07-02T23:55:24+08:00"
     },
     "2026-07-03": {
-      "item_count": 585,
+      "item_count": 1855,
       "jsonl": "sources/cls/data/2026/2026-07-03.jsonl",
       "markdown": "sources/cls/data/2026/2026-07-03.md",
       "sources": {
@@ -1062,9 +1062,19 @@
           "item_count": 585,
           "jsonl": "sources/cls/data/2026/2026-07-03.jsonl",
           "markdown": "sources/cls/data/2026/2026-07-03.md"
+        },
+        "eastmoney": {
+          "item_count": 845,
+          "jsonl": "sources/eastmoney/data/2026/2026-07-03.jsonl",
+          "markdown": "sources/eastmoney/data/2026/2026-07-03.md"
+        },
+        "ths": {
+          "item_count": 425,
+          "jsonl": "sources/ths/data/2026/2026-07-03.jsonl",
+          "markdown": "sources/ths/data/2026/2026-07-03.md"
         }
       },
-      "updated_at": "2026-07-03T23:56:25+08:00"
+      "updated_at": "2026-07-03T23:56:36+08:00"
     }
   }
 }
