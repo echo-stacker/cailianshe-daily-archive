@@ -2,11 +2,13 @@
 
 ## 相关日期
 
-- [[daily/2026-07-26|2026-07-26]]
+- [[daily/2026-07-29|2026-07-29]]
 
 ## 高信息量消息
 
-- **11:40:09｜美国出现人工智能失控事故，更多内幕曝光**
-  - score: 45；source: 同花顺；ref: `ths:678435977`
-- **12:07:01｜OpenAI产品负责人Tibo：ChatGPT Work的活跃用户数量正式超越Codex**
-  - score: 30；source: 同花顺；ref: `ths:678436023`
+- **10:49:02｜OpenAI发布开源版Codex Security CLI**
+  - score: 43；source: 同花顺；ref: `ths:678510507`
+- **00:40:51｜OpenAI与Anthropic要求美国帮助治理AI**
+  - score: 40；source: 同花顺；ref: `ths:678499148`
+- **02:18:11｜OpenAI在API中引入了两种新的转录模型**
+  - score: 29；source: 同花顺；ref: `ths:678499358`
