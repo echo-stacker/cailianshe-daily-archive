@@ -2,13 +2,17 @@
 
 ## 相关日期
 
-- [[daily/2026-07-29|2026-07-29]]
+- [[daily/2026-07-30|2026-07-30]]
 
 ## 高信息量消息
 
-- **10:49:02｜OpenAI发布开源版Codex Security CLI**
-  - score: 43；source: 同花顺；ref: `ths:678510507`
-- **00:40:51｜OpenAI与Anthropic要求美国帮助治理AI**
-  - score: 40；source: 同花顺；ref: `ths:678499148`
-- **02:18:11｜OpenAI在API中引入了两种新的转录模型**
-  - score: 29；source: 同花顺；ref: `ths:678499358`
+- **06:02:14｜微软首席财务官：第四季度合同积压在不包括OpenAI的情况下增加了25%**
+  - score: 53；source: 同花顺；ref: `ths:678532263`
+- **07:22:08｜OpenAI首席财务官员工透露：公司7月年化收入超过整个第二季度**
+  - score: 47；source: 同花顺；ref: `ths:678533059`
+- **16:13:19｜OpenAI承认AI模型失控入侵事件涉及多个平台**
+  - score: 39；source: 同花顺；ref: `ths:678553255`
+- **00:38:31｜OpenAI首席执行官萨姆·奥尔特曼与美国立法者讨论新AI模型**
+  - score: 34；source: 同花顺；ref: `ths:678531657`
+- **01:19:00｜OpenAI表示，将推出面向学术研究者的ChatGPT**
+  - score: 30；source: 同花顺；ref: `ths:678531708`
