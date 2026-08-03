@@ -2,13 +2,11 @@
 
 ## 相关日期
 
-- [[daily/2026-08-01|2026-08-01]]
+- [[daily/2026-08-03|2026-08-03]]
 
 ## 高信息量消息
 
-- **06:20:22｜OpenAI本周预览了AI模型Astra**
-  - score: 52；source: 同花顺；ref: `ths:678599678`
-- **04:17:26｜OpenAI调查人员发现有证据表明：有其他AI智能体已突破了管控限制**
-  - score: 30；source: 同花顺；ref: `ths:678599100`
-- **05:33:36｜OpenAI：GPT-5.4和GPT-5.4mini将从8月31日起不再向登录ChatGPT的用户提供**
-  - score: 24；source: 同花顺；ref: `ths:678599157`
+- **13:25:07｜DeepSeek模型单日吞下8万亿Token OpenAI打折追赶**
+  - score: 39；source: 同花顺；ref: `ths:678621324`
+- **15:01:29｜ETF收评：线上消费ETF领涨3.67%，科创半导体设备ETF领跌10.0%**
+  - score: 35；source: 同花顺；ref: `ths:678623236`
