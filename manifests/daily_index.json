@@ -1565,17 +1565,17 @@
       "updated_at": "2026-08-06T23:31:02+08:00"
     },
     "2026-08-07": {
-      "item_count": 3,
+      "item_count": 539,
       "jsonl": "sources/cls/data/2026/2026-08-07.jsonl",
       "markdown": "sources/cls/data/2026/2026-08-07.md",
       "sources": {
         "cls": {
-          "item_count": 3,
+          "item_count": 539,
           "jsonl": "sources/cls/data/2026/2026-08-07.jsonl",
           "markdown": "sources/cls/data/2026/2026-08-07.md"
         }
       },
-      "updated_at": "2026-08-07T00:09:28+08:00"
+      "updated_at": "2026-08-07T23:55:58+08:00"
     }
   }
 }
