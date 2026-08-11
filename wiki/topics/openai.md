@@ -2,9 +2,11 @@
 
 ## 相关日期
 
-- [[daily/2026-08-08|2026-08-08]]
+- [[daily/2026-08-11|2026-08-11]]
 
 ## 高信息量消息
 
-- **00:36:50｜OpenAI因Astra模型的网络安全能力而放缓其发布进程**
-  - score: 24；source: 同花顺；ref: `ths:678774225`
+- **01:20:29｜OpenAI发布GPT-5.6-Cyber**
+  - score: 24；source: 同花顺；ref: `ths:678838798`
+- **00:52:51｜OpenAI推出ChatGPT Business高级席位**
+  - score: 24；source: 同花顺；ref: `ths:678838723`
