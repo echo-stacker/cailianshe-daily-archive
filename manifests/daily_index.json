@@ -1763,6 +1763,19 @@
         }
       },
       "updated_at": "2026-08-17T23:56:14+08:00"
+    },
+    "2026-08-18": {
+      "item_count": 596,
+      "jsonl": "sources/cls/data/2026/2026-08-18.jsonl",
+      "markdown": "sources/cls/data/2026/2026-08-18.md",
+      "sources": {
+        "cls": {
+          "item_count": 596,
+          "jsonl": "sources/cls/data/2026/2026-08-18.jsonl",
+          "markdown": "sources/cls/data/2026/2026-08-18.md"
+        }
+      },
+      "updated_at": "2026-08-18T23:56:05+08:00"
     }
   }
 }
