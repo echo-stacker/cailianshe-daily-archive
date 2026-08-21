@@ -2,9 +2,9 @@
 
 ## 相关日期
 
-- [[daily/2026-08-18|2026-08-18]]
+- [[daily/2026-08-21|2026-08-21]]
 
 ## 高信息量消息
 
-- **12:07:17｜企业微信全面升级CLI与MCP能力，WorkBuddy、Deepseek Harness等主流AI Agent均可接入**
-  - score: 35；source: 同花顺；ref: `ths:679039374`
+- **17:30:33｜深度求索：V4-Flash-Vision-Exp 上线，开启多模态API服务**
+  - score: 27；source: 同花顺；ref: `ths:679177801`
